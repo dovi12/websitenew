@@ -1,0 +1,509 @@
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 2s all ease;
+}
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Title section */
+#title {
+  background: rgb(0,68,171);
+  background: linear-gradient(90deg, rgba(0,68,171,1) 0%, rgba(3,173,203,1) 100%);
+}
+
+.title-header {
+  line-height: 1.5;
+  font-size: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 60px;
+  color: #fff;
+  font-weight: 700;
+  padding-bottom: 30px;
+  text-align: left;
+}
+
+.title-page-div {
+  padding-right: 130px;
+}
+.title-page-description {
+  color: #fff;
+  font-size: 1.5rem;
+font-family: 'Ubuntu', sans-serif;
+}
+.container-fluid {
+  padding: 2% 12%;
+
+}
+/* Buttons */
+.button-div {
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 0;
+  text-align: left;
+}
+
+.get-started-button {
+  width: 200px;
+  color: #2155CD;
+  background-color: #fff;
+  border-radius: 10px;
+  border: none;
+  transition: 0.3s;
+  margin-top: 20px;
+  padding: 12px 20px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+
+}
+@media (max-width: 576px) {
+  .homeimage {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+  }
+  .title-page-div {
+  text-align: center;
+  width:100%;
+  margin: auto;
+  padding-right: 0;
+  padding-left: 0;
+}
+  .title-header {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    font-size: 2rem;
+  }
+  .button-div {
+  text-align: center;
+  margin: auto;
+  width:100%;
+ }
+  .get-started-button {
+    margin: auto;
+    text-align: center;
+}
+.home-image-div {
+text-align: center;
+}
+.title-page-description {
+  font-size: 1rem;
+}
+.img-1 {
+  width: 20%;
+}
+}
+
+/* Navbar */
+.nav-link {
+  color: #fff !important;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+}
+.navbar-brand {
+width: 100px;
+}
+.nav-item {
+  padding: 0 20px;
+}
+.nav-link{
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-link:hover {
+border-bottom: 1px solid #fff;
+
+}
+
+.navbar-expand-lg {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+
+
+.get-started-button:hover {
+  border-color: #2155CD;
+  color: #2155CD;
+  border-radius: 30px;
+  background-color: #e3e3e3;
+}
+.get-started-button:active{
+  background-color: #fff;
+}
+
+.img-1 {
+  width: 90%;
+  height: 10%;
+}
+
+
+/* steps */
+#steps {
+  margin-bottom: 80px;
+}
+.process-container {
+  margin-top: 150px;
+}
+.process-header {
+  text-align: center;
+  margin-bottom: 80px;
+  font-size: 4rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.outer-process-box {
+  text-align: center;
+  padding: 3%;
+  margin-bottom: 70px;
+}
+
+.inner-process-box {
+  height: 250px;
+  width: 250px;
+  border: 5px;
+  text-align: center;
+  margin: auto;
+  border-radius: 15%;
+  display: table;
+  text-align: center;
+  background: rgb(81,40,136);
+  background: linear-gradient(180deg, rgba(81,40,136,1) 1%, rgba(76,44,150,1) 21%, rgba(70,52,167,1) 40%, rgba(61,59,187,1) 74%, rgba(58,65,198,1) 100%);
+  color: #fff;
+
+}
+
+ .process-box-text-header {
+   padding-bottom: 6%;
+   font-family: 'Montserrat', sans-serif;
+
+ }
+ .process-text {
+  height: 100%;
+  margin: auto;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+
+}
+
+
+
+/* features section */
+
+
+#features {
+  background: rgb(0,68,171);
+  background: linear-gradient(90deg, rgba(0,68,171,1) 0%, rgba(3,173,203,1) 100%);
+  text-align: center;
+  padding-bottom: 240px;
+}
+
+
+
+.features-title {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  padding: 150px;
+  color: #fff;
+  font-weight: 700;
+
+}
+.feature-benefits {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  margin: 5% 0;
+  color: #fff;
+}
+
+.features-text {
+  color: #fff;
+  font-size: 1.2rem;
+  line-height: 1.5;
+  opacity: 90%;
+  font-family: 'Ubuntu', sans-serif;
+  padding-bottom: 10px;
+  padding: 0 40px;
+}
+
+.font-icon {
+  text-align: center;
+  padding-bottom: 20px;
+  color: #fff
+}
+
+.font-icon:hover {
+  font-size: 70px;
+}
+
+
+/* team section */
+
+#about-us {
+}
+
+.team-images {
+  height: 300px;
+  width: 300px;
+  border: #12b8ed;
+  border-radius: 100%;
+  border-style: outset;
+}
+
+.team-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
+  color: black;
+  line-height: 1.5;
+  margin-bottom: 90px;
+  margin-top: 90px;
+  text-align: center;
+}
+
+.awesomefont-value {
+  color: black;
+}
+
+.team-names {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+/* card flip */
+.flip-card {
+  background-color: transparent;
+  height: 300px;
+  width: 300px;
+  border: 1px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  width: 300px;
+  height: 300px;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  margin: auto;
+  background-color: #fff;
+}
+
+.flip-card-front {
+  color: black;
+  width: 300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+.flip-card-back {
+  color: white;
+  transform: rotateY(180deg);
+  width: 300px;
+  height: 300px;
+  color: black;
+  padding-top: 65px;
+}
+
+.team-flip {
+  margin: auto;
+  margin-bottom: 200px;
+}
+
+.team-text {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+/* values section */
+
+.values{
+  margin: auto;
+  text-align: center;
+}
+
+/* contact section  */
+
+#contact {
+  text-align: center;
+  color: black;
+  /* background-color: #f5f5f5 */
+  height: 800px;
+  margin-bottom: 200px;
+}
+@media (max-width: 576px) {
+.form-div {
+  width:100%;
+
+}
+
+}
+
+
+.privacy-policy {
+  text-decoration: underline;
+}
+.message-area:active {
+  border-color: black;
+
+}
+
+/* contact section */
+
+.contact-images {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  margin-top: 160px;
+}
+.get-in-touch-text {
+text-align: left;
+margin-bottom: 65px;
+font-family: 'Ubuntu', sans-serif;
+width: 70%;
+
+}
+
+
+.env-i {
+  width: 100%;
+  text-align: left;
+}
+.get-in-touch {
+  background-color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: left;
+  color: black;
+  border-radius: 5%;
+
+
+}
+
+.email-span {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.4rem;
+  margin: 20px 0 100px 20px
+}
+.font-contact {
+  margin-bottom: 60px;
+}
+.contact-container {
+  border-radius: 5%;
+}
+/* form section */
+
+.website-choice {
+  width:65%;
+  margin: auto;
+  margin-top: 30px;
+  border-color: black;
+  padding: 0;
+  height: 48px; }
+
+  #emailHelp {
+    width: 35%;
+  }
+  .contact-title {
+    margin-bottom: 8%;
+    padding-top: 80px;
+    font-size: 3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: left;
+
+  }
+
+
+  .name-section {
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+
+  }
+
+  .full-name-text {
+    border-color: black;
+    width: 42%;
+    margin: auto;
+    height: 3rem;
+    padding: 1rem;
+
+  }
+
+  .email-contact {
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .email-text {
+    border-color: black;
+    width: 100%;
+    margin: auto;
+    height: 3rem;
+    padding: 1rem;
+  }
+
+  .message-area {
+    width: 65%;
+    margin: auto;
+    margin-top: 30px;
+  }
+
+  .message-text {
+    height: 150px;
+    border-color: black;
+  }
+
+  .form-div {
+    background-color: #f5f5f5;
+    border-radius: 5%;
+
+
+  }
+
+
+  .contact-button {
+    margin: 30px 0;
+    width: 65%;
+    background-color: #227ce3;
+    margin-bottom: 100px;
+
+}
+.help-warning2 {
+  width: 65%;
+  margin: auto;
+  margin-top: 40px;
+
+
+}
+
+/* footer section */
+
+#footer {
+  background-color: #03adcb;
+}
+.footer-text {
+  text-align: center;
+  color: black;
+}
